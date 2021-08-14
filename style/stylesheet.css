@@ -24,6 +24,10 @@ body{
    
 }
 p{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 50px; 
     margin-bottom:  50px;
 }
