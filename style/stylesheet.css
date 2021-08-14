@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+body{
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;  
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.page__one{
+    background-color: #fdec51;
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+p{
+    margin-left: 50px; 
+}
+.page__two{
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.aa{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+li{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+}
+input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.name{
+    
+    display: flex;
+    flex-direction: row;
+}
+textarea{
+    resize: vertical;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.footer{
+ width: 100%;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 40px;
+}
