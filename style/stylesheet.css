@@ -25,19 +25,21 @@ body{
 }
 p{
     margin-left: 50px; 
+    margin-bottom:  50px;
 }
 .page__two{
     background-color: #fff;
     width: 500px;
-    height: auto;
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
     
 }
 .aa{
-    padding-top: 50px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +59,7 @@ input{
     border-right: none;
     padding-top: 10px;
 }
-input:focus{
+input:hover{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -96,4 +98,10 @@ textarea{
 a{
     text-decoration: none;
     padding-right: 40px;
+}
+img{
+    border-radius: 50%;width: 50px;
+    display: flex;
+   margin-top: -30px;
+   margin-left: -400px;
 }
